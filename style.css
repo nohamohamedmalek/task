@@ -1,0 +1,27 @@
+* {box-sizing: border-box;}
+body{
+    background-color: antiquewhite;
+}
+.img-magnifier-container {
+  position:relative;
+  margin: 10% 10% 0 28%;
+  display: flex;
+}
+
+img-magnifier-container img{
+    align-items: center;
+}
+
+.img-magnifier-container:hover{
+transform: scale(1.01);
+}
+    
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 120px;
+  height: 120px;
+}
